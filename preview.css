@@ -1,0 +1,142 @@
+/* =========================
+   X-Certificate
+   preview.css
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e3a8a);
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px 20px;
+}
+
+.logo {
+    width: 85px;
+    height: 85px;
+    margin: 15px 0;
+}
+
+header h1 {
+    font-size: 2.3rem;
+    margin-bottom: 8px;
+}
+
+header p {
+    color: #d1d5db;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-bottom: 15px;
+    color: #93c5fd;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-btn:hover {
+    color: #ffffff;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.certificate {
+    background: #ffffff;
+    color: #111827;
+    border-radius: 18px;
+    padding: 50px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, .3);
+}
+
+.certificate-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.certificate-logo {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 15px;
+}
+
+.certificate-header h2 {
+    font-size: 2rem;
+}
+
+.presented-text {
+    text-align: center;
+    color: #6b7280;
+    margin-bottom: 15px;
+}
+
+#previewName {
+    text-align: center;
+    font-size: 2.8rem;
+    color: #1d4ed8;
+    margin-bottom: 20px;
+}
+
+#previewDescription {
+    text-align: center;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+.certificate-footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    border-top: 2px solid #e5e7eb;
+    padding-top: 25px;
+}
+
+.footer-item {
+    flex: 1;
+    min-width: 180px;
+    text-align: center;
+}
+
+.footer-item span {
+    display: block;
+    color: #6b7280;
+    margin-bottom: 6px;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 35px 0;
+}
+
+.actions button {
+    padding: 14px 28px;
+    border: none;
+    border-radius: 10px;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .25s;
+}
+
+.actions button:hover {
+    background: #1d4ed8;
+    transform: translateY(-2px);
+}
