@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certificate Editor • X-Certificate</title>
+
+  <link rel="icon" type="image/png" href="xc.png">
+  <link rel="stylesheet" href="editor.css">
+</head>
+<body>
+
+  <header>
+    <a href="index.html" class="back-btn">← Home</a>
+
+    <img src="xc.png" alt="X-Certificate Logo" class="logo">
+
+    <h1>Certificate Editor</h1>
+
+    <p>Create your custom certificate.</p>
+  </header>
+
+  <main>
+
+    <form id="certificateForm">
+
+      <div class="form-group">
+        <label for="recipientName">Recipient Name</label>
+        <input
+          type="text"
+          id="recipientName"
+          placeholder="Enter recipient name"
+          required
+        >
+      </div>
+
+      <div class="form-group">
+        <label for="certificateTitle">Certificate Title</label>
+        <input
+          type="text"
+          id="certificateTitle"
+          placeholder="Certificate of Achievement"
+          required
+        >
+      </div>
+
+      <div class="form-group">
+        <label for="description">Description</label>
+        <textarea
+          id="description"
+          rows="4"
+          placeholder="This certificate is proudly presented to..."
+          required
+        ></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="issuer">Issued By</label>
+        <input
+          type="text"
+          id="issuer"
+          placeholder="Organization or Person"
+          required
+        >
+      </div>
+
+      <div class="form-group">
+        <label for="date">Issue Date</label>
+        <input
+          type="date"
+          id="date"
+          required
+        >
+      </div>
+
+      <div class="form-group">
+        <label for="certificateId">Certificate ID</label>
+        <input
+          type="text"
+          id="certificateId"
+          placeholder="XC-2026-000001"
+        >
+      </div>
+
+      <div class="form-group">
+        <label for="logoUpload">Custom Logo (Optional)</label>
+        <input
+          type="file"
+          id="logoUpload"
+          accept="image/*"
+        >
+      </div>
+
+      <button type="submit" class="preview-btn">
+        Preview Certificate
+      </button>
+
+    </form>
+
+  </main>
+
+  <script src="editor.js"></script>
+
+</body>
+</html>
