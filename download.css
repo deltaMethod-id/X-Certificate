@@ -1,6 +1,7 @@
 /* =========================
    X-Certificate
    download.css
+   Red + Black Theme
 ========================= */
 
 * {
@@ -11,7 +12,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(135deg, #0f172a, #1e3a8a);
+    background: linear-gradient(135deg, #09090b, #450a0a);
     color: #ffffff;
     min-height: 100vh;
 }
@@ -30,18 +31,20 @@ header {
 header h1 {
     font-size: 2.3rem;
     margin-bottom: 8px;
+    color: #ef4444;
 }
 
 header p {
-    color: #d1d5db;
+    color: #a1a1aa;
 }
 
 .back-btn {
     display: inline-block;
     margin-bottom: 15px;
-    color: #93c5fd;
+    color: #f87171;
     text-decoration: none;
     font-weight: bold;
+    transition: .25s;
 }
 
 .back-btn:hover {
@@ -58,11 +61,12 @@ main {
 .download-card {
     width: 100%;
     max-width: 650px;
-    background: rgba(255, 255, 255, 0.08);
-    backdrop-filter: blur(12px);
+    background: rgba(24, 24, 27, 0.9);
+    border: 1px solid rgba(239, 68, 68, 0.3);
     border-radius: 18px;
     padding: 35px;
     text-align: center;
+    box-shadow: 0 0 30px rgba(239, 68, 68, 0.2);
 }
 
 .certificate-logo {
@@ -72,19 +76,21 @@ main {
 }
 
 .download-card h2 {
-    margin-bottom: 12px;
     font-size: 2rem;
+    margin-bottom: 12px;
+    color: #ef4444;
 }
 
 .download-card p {
-    color: #d1d5db;
+    color: #d4d4d8;
     line-height: 1.7;
 }
 
 .certificate-info {
     margin: 30px 0;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.08);
+    background: rgba(39, 39, 42, 0.8);
+    border: 1px solid rgba(239, 68, 68, 0.2);
     border-radius: 12px;
     text-align: left;
 }
@@ -92,6 +98,10 @@ main {
 .certificate-info p {
     margin: 12px 0;
     color: #ffffff;
+}
+
+.certificate-info strong {
+    color: #ef4444;
 }
 
 .download-buttons {
@@ -106,33 +116,35 @@ main {
     padding: 14px 24px;
     border: none;
     border-radius: 10px;
-    background: #2563eb;
+    background: #ef4444;
     color: #ffffff;
     font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
     transition: .25s;
+    box-shadow: 0 0 15px rgba(239, 68, 68, 0.35);
 }
 
 .download-buttons button:hover {
-    background: #1d4ed8;
+    background: #dc2626;
     transform: translateY(-2px);
+    box-shadow: 0 0 25px rgba(239, 68, 68, 0.6);
 }
 
 .home-btn {
     display: inline-block;
     margin-top: 25px;
     padding: 14px 28px;
-    background: transparent;
-    border: 2px solid #ffffff;
+    border: 2px solid #ef4444;
     border-radius: 10px;
-    color: #ffffff;
+    color: #ef4444;
     text-decoration: none;
     font-weight: bold;
     transition: .25s;
 }
 
 .home-btn:hover {
-    background: #ffffff;
-    color: #111827;
+    background: #ef4444;
+    color: #ffffff;
+    box-shadow: 0 0 20px rgba(239, 68, 68, 0.5);
 }
