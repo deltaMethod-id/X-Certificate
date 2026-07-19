@@ -1,0 +1,138 @@
+/* =========================
+   X-Certificate
+   download.css
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e3a8a);
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px 20px;
+}
+
+.logo {
+    width: 85px;
+    height: 85px;
+    margin: 15px 0;
+}
+
+header h1 {
+    font-size: 2.3rem;
+    margin-bottom: 8px;
+}
+
+header p {
+    color: #d1d5db;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-bottom: 15px;
+    color: #93c5fd;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-btn:hover {
+    color: #ffffff;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+.download-card {
+    width: 100%;
+    max-width: 650px;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    border-radius: 18px;
+    padding: 35px;
+    text-align: center;
+}
+
+.certificate-logo {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 20px;
+}
+
+.download-card h2 {
+    margin-bottom: 12px;
+    font-size: 2rem;
+}
+
+.download-card p {
+    color: #d1d5db;
+    line-height: 1.7;
+}
+
+.certificate-info {
+    margin: 30px 0;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    text-align: left;
+}
+
+.certificate-info p {
+    margin: 12px 0;
+    color: #ffffff;
+}
+
+.download-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.download-buttons button {
+    padding: 14px 24px;
+    border: none;
+    border-radius: 10px;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .25s;
+}
+
+.download-buttons button:hover {
+    background: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+.home-btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 14px 28px;
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .25s;
+}
+
+.home-btn:hover {
+    background: #ffffff;
+    color: #111827;
+}
