@@ -1,6 +1,7 @@
 /* =========================
    X-Certificate
    editor.css
+   Red + Black Theme
 ========================= */
 
 * {
@@ -11,7 +12,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(135deg, #3f0000, #8b0000);
+    background: linear-gradient(135deg, #09090b, #450a0a);
     color: #ffffff;
     min-height: 100vh;
 }
@@ -30,16 +31,17 @@ header {
 header h1 {
     font-size: 2.3rem;
     margin-bottom: 8px;
+    color: #ef4444;
 }
 
 header p {
-    color: #fda4af;
+    color: #a1a1aa;
 }
 
 .back-btn {
     display: inline-block;
     margin-bottom: 15px;
-    color: #ff6b7a;
+    color: #f87171;
     text-decoration: none;
     font-weight: bold;
 }
@@ -57,8 +59,9 @@ main {
 form {
     width: 100%;
     max-width: 700px;
-    background: rgba(255, 0, 0, 0.08);
-    backdrop-filter: blur(10px);
+    background: rgba(24, 24, 27, 0.9);
+    border: 1px solid rgba(239, 68, 68, 0.25);
+    box-shadow: 0 0 25px rgba(239, 68, 68, 0.15);
     border-radius: 18px;
     padding: 30px;
 }
@@ -71,18 +74,25 @@ label {
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
+    color: #fca5a5;
 }
 
 input,
 textarea {
     width: 100%;
     padding: 14px;
-    border: none;
+    border: 1px solid #3f3f46;
     border-radius: 10px;
     outline: none;
     font-size: 1rem;
-    background: #f8fafc;
-    color: #111827;
+    background: #09090b;
+    color: #ffffff;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #ef4444;
+    box-shadow: 0 0 10px rgba(239, 68, 68, 0.3);
 }
 
 textarea {
@@ -93,7 +103,7 @@ textarea {
 input[type="file"] {
     background: transparent;
     color: #ffffff;
-    padding: 0;
+    padding: 10px;
 }
 
 .preview-btn {
@@ -101,15 +111,17 @@ input[type="file"] {
     padding: 15px;
     border: none;
     border-radius: 10px;
-    background: #dc2626;
+    background: #ef4444;
     color: #ffffff;
     font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
     transition: .25s;
+    box-shadow: 0 0 15px rgba(239, 68, 68, 0.4);
 }
 
 .preview-btn:hover {
-    background: #b91c1c;
+    background: #dc2626;
     transform: translateY(-2px);
+    box-shadow: 0 0 25px rgba(239, 68, 68, 0.6);
 }
