@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certificate Preview • X-Certificate</title>
+
+  <link rel="icon" type="image/png" href="xc.png">
+  <link rel="stylesheet" href="preview.css">
+</head>
+<body>
+
+  <header>
+    <a href="editor.html" class="back-btn">← Back to Editor</a>
+
+    <img src="xc.png" alt="X-Certificate Logo" class="logo">
+
+    <h1>Certificate Preview</h1>
+
+    <p>Preview your custom certificate before downloading.</p>
+  </header>
+
+  <main>
+
+    <section class="certificate">
+
+      <div class="certificate-header">
+        <img src="xc.png" alt="Logo" class="certificate-logo">
+
+        <h2 id="previewTitle">Certificate of Achievement</h2>
+      </div>
+
+      <p class="presented-text">
+        This certificate is proudly presented to
+      </p>
+
+      <h1 id="previewName">Recipient Name</h1>
+
+      <p id="previewDescription">
+        Certificate description will appear here.
+      </p>
+
+      <div class="certificate-footer">
+
+        <div class="footer-item">
+          <span>Issued By</span>
+          <strong id="previewIssuer">X-Certificate</strong>
+        </div>
+
+        <div class="footer-item">
+          <span>Issue Date</span>
+          <strong id="previewDate">YYYY-MM-DD</strong>
+        </div>
+
+        <div class="footer-item">
+          <span>Certificate ID</span>
+          <strong id="previewId">XC-2026-000001</strong>
+        </div>
+
+      </div>
+
+    </section>
+
+    <div class="actions">
+      <button id="editBtn">Edit</button>
+      <button id="downloadBtn">Download</button>
+    </div>
+
+  </main>
+
+  <script src="preview.js"></script>
+
+</body>
+</html>
