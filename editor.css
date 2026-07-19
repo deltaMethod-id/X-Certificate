@@ -11,7 +11,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(135deg, #0f172a, #1e3a8a);
+    background: linear-gradient(135deg, #3f0000, #8b0000);
     color: #ffffff;
     min-height: 100vh;
 }
@@ -33,13 +33,13 @@ header h1 {
 }
 
 header p {
-    color: #d1d5db;
+    color: #fda4af;
 }
 
 .back-btn {
     display: inline-block;
     margin-bottom: 15px;
-    color: #93c5fd;
+    color: #ff6b7a;
     text-decoration: none;
     font-weight: bold;
 }
@@ -57,7 +57,7 @@ main {
 form {
     width: 100%;
     max-width: 700px;
-    background: rgba(255, 255, 255, 0.08);
+    background: rgba(255, 0, 0, 0.08);
     backdrop-filter: blur(10px);
     border-radius: 18px;
     padding: 30px;
@@ -101,7 +101,7 @@ input[type="file"] {
     padding: 15px;
     border: none;
     border-radius: 10px;
-    background: #2563eb;
+    background: #dc2626;
     color: #ffffff;
     font-size: 1rem;
     font-weight: bold;
@@ -110,6 +110,6 @@ input[type="file"] {
 }
 
 .preview-btn:hover {
-    background: #1d4ed8;
+    background: #b91c1c;
     transform: translateY(-2px);
 }
